@@ -1,4 +1,3 @@
-@"
 
 # BibliotecaPt2 — Projeto de POO (Java)
 
@@ -26,24 +25,21 @@ O projeto utiliza conceitos fundamentais de POO, como:
 
 ## 2. Estrutura do Repositório
 
-\`\`\`
+```plaintext
 POOBliblioteca/
 ├── src/
 │ └── BibliotecaPt2/
 │ ├── Main.java
 │ ├── Livro.java
-│ ├── Usuario.java
-│ ├── Emprestimo.java
-│ └── (outras classes conforme implementado)
+│ └── Usuario.java
 ├── .gitignore
 └── README.md
-\`\`\`
+```
 
-- \`Main.java\`: ponto de entrada da aplicação (classe com \`public static void main\`), gerencia o menu/biblioteca.
-- \`Livro.java\`: representa os livros (título, autor, ISBN, disponibilidade etc.).
-- \`Usuario.java\`: representa os usuários da biblioteca.
-- \`Emprestimo.java\`: controla o processo de emprestar e devolver livros.
-- Outras classes podem existir conforme o escopo do projeto.
+- `Main.java`: ponto de entrada da aplicação (classe com \`public static void main\`), gerencia o menu/biblioteca.
+- `Livro.java`: representa os livros (título, autor, ISBN, disponibilidade etc.).
+- `Usuario.java`: representa os usuários da biblioteca.
+- Outras classes podem existir conforme alterar o projeto.
 
 ---
 
@@ -51,24 +47,24 @@ POOBliblioteca/
 
 1. Clone este repositório:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/iscaio/POOBliblioteca.git
    cd POOBliblioteca
-   \`\`\`
+   ```
 
 2. Compile os arquivos Java:
 
-   \`\`\`bash
+   ```bash
    javac -d bin src/BibliotecaPt2/\*.java
-   \`\`\`
+   ```
 
 3. Execute o programa:
 
-   \`\`\`bash
+   ```bash
    java -cp bin BibliotecaPt2.Main
-   \`\`\`
+   ```
 
-> **Dica**: Se estiver usando uma IDE como Eclipse ou VS Code, basta abrir o projeto e executar a classe \`Main\`.
+> **Dica**: Se estiver usando uma IDE como Eclipse ou VS Code, basta abrir o projeto e executar a classe `Main`.
 
 ---
 
@@ -89,16 +85,7 @@ Além disso, foi um bom exercício de:
 
 ---
 
-## 5. Possíveis Melhorias Futuras
-
-- Adicionar persistência (usando arquivos ou banco de dados).
-- Criar uma interface gráfica (Java Swing ou JavaFX).
-- Implementar testes automatizados (JUnit).
-- Refatorar para incluir padrões de projeto (por exemplo, DAO ou MVC).
-
----
-
-## 6. Sobre o Curso
+## 5. Sobre o Curso
 
 Este trabalho foi realizado como parte da grade curricular da **primeira disciplina de Java (POO)** da universidade. Ele foi elaborado para demonstrar e exercitar os conceitos básicos da linguagem e da orientação a objetos, consolidando a teoria em prática.
 
